@@ -6,7 +6,7 @@ public class SystemMain05 {
 
 		AbstMember[] members = new AbstMember[2];
 
-		NonMember nonMember = new NonMember(name);
+		NonMember nonMember = new NonMember("Sato Kensuke");
 
 		members[0] = nonMember;
 
