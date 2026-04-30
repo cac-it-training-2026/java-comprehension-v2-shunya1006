@@ -14,6 +14,14 @@ public class SystemMain05 {
 
 		members[1] = member;
 
+		System.out.println("\"---SHOW MEMBERS---\"");
+		MemberManager.showAllMembers(members);
+
+		System.out.println("\"---BUY ITEM---\"");
+		for (AbstMember m : members) {
+			m.buyItem();
+		}
+
 	}
 
 }

@@ -1,4 +1,4 @@
-package q01_basic.question05;
+package q01_basic.question06;
 
 public class Member extends AbstMember {
 	private int id;
@@ -40,7 +40,7 @@ public class Member extends AbstMember {
 
 	public Member() {
 		id = 1;
-		password = "Passw0rd";
+		password = "testPass";
 		name = "Miura Manabu";
 		age = 28;
 		rank = 2;
@@ -60,7 +60,6 @@ public class Member extends AbstMember {
 	}
 
 	public void showMember() {
-		System.out.println(name + " is a non-member");
 		System.out.println("*****************");
 		System.out.println("***MEMBER DATA***");
 		System.out.println("id:" + id);
@@ -71,4 +70,5 @@ public class Member extends AbstMember {
 		System.out.println("*****************");
 
 	}
+
 }
