@@ -4,7 +4,7 @@ public class SystemMain02 {
 
 	public static void main(String[] args) {
 
-		//TODO ここから実装する
+		public　　d//TODO ここから実装する
 
 	}
 
